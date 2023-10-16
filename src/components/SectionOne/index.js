@@ -13,7 +13,7 @@ const SectionOne = () => {
           Let's have some fun
         </p>
       </div>
-      <div className="sm:flex sm:flex-row sm:justify-center z-[1] sm:gap-[40px] xl:mt-[350px]  mx-auto w-fit">
+      <div className="sm:flex sm:flex-row sm:justify-center z-[1] sm:gap-[40px] mt-[400px] xl:mt-[350px]  mx-auto w-fit">
         <div
           id="btn1"
           className="w-[170px] h-[60px] z-20 hover:animate-bounce shadow mb-[20px] sm:mb-0"
@@ -59,10 +59,10 @@ const SectionOne = () => {
           </a>
         </div>
       </div>
-      <div className="z-10 bg-[#ffbf70] py-[10px] flex flex-row justify-center shadow mt-[45px] ">
+      <div className="z-10 bg-[#ffbf70] py-[10px] flex flex-row justify-center shadow mt-[45px]">
         <p
           id="lor"
-          className="text-[13px] font-alf text-[#410e12] text-center w-full "
+          className="text-[13px] font-alf text-[#410e12] text-center w-full"
         >
           MOLLY. MOLLY. MOLLY. MOLLY. MOLLY. MOLLY. MOLLY. MOLLY. MOLLY. MOLLY.
           MOLLY. MOLLY. MOLLY. MOLLY. MOLLY. MOLLY. MOLLY. MOLLY. MOLLY. MOLLY.

@@ -11,10 +11,10 @@ const SectionTwo = () => {
           The Story of Molly
         </h1>
       </div>
-      <div className="w-full md:flex md:flex-row z-10 px-[5px] md:px-[50px] mt-[85px]">
-        <div className=" w-[50%] md:w-[20%] ml-[100px] mt-[150px] ">
+      <div className="w-full md:flex md:flex-row z-10 px-[5px] md:px-[50px] mt-[-100px] md:mt-[85px]">
+        <div className=" w-full md:w-[20%] md:ml-[100px] mt-[150px] mb-[20px] md:mb-0">
           <img
-            className=" w-[200px] "
+            className=" w-[200px] mx-auto"
             src={molly_bj}
             width={630}
             height={1055}
@@ -47,7 +47,7 @@ const SectionTwo = () => {
           alt="molly"
         />
       </div>
-      <div className="z-10 bg-[#7e2b40] py-[25px] flex flex-row justify-center shadow mt-[300px] ">
+      <div className="z-10 bg-[#7e2b40] py-[25px] flex flex-row justify-center shadow xl:mt-[300px] ">
         <p
           id="lor"
           className="text-[15px] font-alf text-white text-center w-full "

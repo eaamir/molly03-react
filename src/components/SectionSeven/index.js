@@ -10,8 +10,8 @@ const SectionSeven = () => {
           Molly chart
         </h1>
       </div>
-      <div className="w-full overflow-hidden xl:flex xl:flex-row z-[10] px-[20px] mt-[150px]  ">
-        <div className="w-[50%] flex flex-row justify-center ">
+      <div className="w-full overflow-hidden xl:flex xl:flex-row z-[10] px-[20px] mt-[50px] xl:mt-[150px]  ">
+        <div className="xl:w-[50%] flex flex-row justify-center">
           <img
             id="chartmolly"
             className=" w-[400px] "
@@ -23,7 +23,7 @@ const SectionSeven = () => {
         </div>
         <div
           id="header"
-          className=" w-[50%] px-[25px] py-[50px] h-fit flex flex-col justify-center my-auto mr-[100px] "
+          className="xl:w-[50%] px-[25px] py-[50px] h-fit flex flex-col justify-center my-auto xl:mr-[100px] mt-[20px] xl:mt-0"
         >
           <h1 className="font-alf text-center text-[27px] sm:text-[27px] text-white ">
             Molly-friendly tokenomics
@@ -38,7 +38,7 @@ const SectionSeven = () => {
           </p>
         </div>
       </div>
-      <div className="z-10 bg-[#ffc743] py-[25px] flex flex-row justify-center shadow mt-[150px] ">
+      <div className="z-10 bg-[#ffc743] py-[25px] flex flex-row justify-center shadow mt-[50px] xl:mt-[150px] ">
         <p
           id="lor"
           className="text-[15px] font-alf text-white text-center w-full "

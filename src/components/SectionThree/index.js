@@ -11,8 +11,8 @@ const SectionThree = () => {
           Brief and useful
         </h1>
       </div>
-      <div className="w-full overflow-hidden xl:flex xl:flex-row-reverse z-[10] px-[20px] mt-[150px]  ">
-        <div className="xl:w-[20%] w-[50%] mr-[100px] pt-[100px] xl:block">
+      <div className="w-full overflow-hidden xl:flex xl:flex-row-reverse z-[10] px-[20px] mt-[-50px] xl:mt-[150px]  ">
+        <div className="xl:w-[20%] w-[50%] mr-[100px] pt-[100px] xl:block mx-auto">
           <img
             id="smile"
             className=" w-[190px] "
@@ -49,7 +49,7 @@ const SectionThree = () => {
           alt="molly"
         />
       </div>
-      <div className="z-10 bg-[#b6420a] py-[25px] flex flex-row justify-center shadow mt-[300px] ">
+      <div className="z-10 bg-[#b6420a] py-[25px] flex flex-row justify-center shadow xl:mt-[300px] ">
         <p
           id="lor"
           className="text-[15px] font-alf text-white text-center w-full "
