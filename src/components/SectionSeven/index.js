@@ -13,6 +13,7 @@ const SectionSeven = () => {
       <div className="w-full overflow-hidden xl:flex xl:flex-row z-[10] px-[20px] mt-[50px] xl:mt-[150px]  ">
         <div className="xl:w-[50%] flex flex-row justify-center">
           <img
+            loading="lazy"
             id="chartmolly"
             className=" w-[400px] "
             src={last}
@@ -38,10 +39,10 @@ const SectionSeven = () => {
           </p>
         </div>
       </div>
-      <div className="z-10 bg-[#ffc743] py-[25px] flex flex-row justify-center shadow mt-[50px] xl:mt-[150px] ">
+      <div className="z-10 bg-[#ffc743] py-[10px] flex flex-row justify-center shadow mt-[50px] xl:mt-[150px] ">
         <p
           id="lor"
-          className="text-[15px] font-alf text-white text-center w-full "
+          className="text-[13px] font-alf text-white text-center w-full "
         >
           MOLLY. MOLLY. MOLLY. MOLLY. MOLLY. MOLLY. MOLLY. MOLLY. MOLLY. MOLLY.
           MOLLY. MOLLY. MOLLY. MOLLY. MOLLY. MOLLY. MOLLY. MOLLY. MOLLY. MOLLY.

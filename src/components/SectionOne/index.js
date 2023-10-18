@@ -2,7 +2,7 @@ import React from "react";
 
 const SectionOne = () => {
   return (
-    <div className=" mt-[25px] overflow-hidden ">
+    <div className=" mt-[25px] overflow-hidden " load>
       <div className="flex flex-row justify-center ">
         <h1 className="font-alf text-[40px] capitalize text-white ">
           Hello i'm molly
@@ -16,7 +16,7 @@ const SectionOne = () => {
       <div className="sm:flex sm:flex-row sm:justify-center z-[1] sm:gap-[40px] mt-[400px] xl:mt-[350px]  mx-auto w-fit">
         <div
           id="btn1"
-          className="w-[170px] h-[60px] z-20 hover:animate-bounce shadow mb-[20px] sm:mb-0"
+          className="w-[170px] h-[60px] z-20 shadow mb-[20px] sm:mb-0 hover:translate-y-1 duration-700  "
         >
           <a
             href="#"
@@ -29,7 +29,7 @@ const SectionOne = () => {
         </div>
         <div
           id="btn2"
-          className="w-[170px] h-[60px] z-20 shadow hover:animate-bounce "
+          className="w-[170px] h-[60px] z-20 shadow hover:translate-y-1 duration-700 "
         >
           <a
             href="#"
@@ -45,7 +45,7 @@ const SectionOne = () => {
         <div className="pr-[20px] border-r-2 z-20 hover:scale-[1.1] transition ease-in-out ">
           <a href="#" className="w-fit z-20 ">
             <i
-              class="fa-brands fa-telegram fa-3x"
+              className="fa-brands fa-telegram fa-3x"
               style={{ color: "#ffffff" }}
             ></i>
           </a>

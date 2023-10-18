@@ -16,6 +16,7 @@ const SectionThree = () => {
           <img
             id="smile"
             className=" w-[190px] "
+            loading="lazy"
             src={moll10}
             width={630}
             height={1055}
@@ -49,10 +50,10 @@ const SectionThree = () => {
           alt="molly"
         />
       </div>
-      <div className="z-10 bg-[#b6420a] py-[25px] flex flex-row justify-center shadow xl:mt-[300px] ">
+      <div className="z-10 bg-[#b6420a] py-[10px] flex flex-row justify-center shadow xl:mt-[300px] ">
         <p
           id="lor"
-          className="text-[15px] font-alf text-white text-center w-full "
+          className="text-[13px] font-alf text-white text-center w-full "
         >
           MOLLY. MOLLY. MOLLY. MOLLY. MOLLY. MOLLY. MOLLY. MOLLY. MOLLY. MOLLY.
           MOLLY. MOLLY. MOLLY. MOLLY. MOLLY. MOLLY. MOLLY. MOLLY. MOLLY. MOLLY.

@@ -1,4 +1,5 @@
 import Footer from "./components/Footer";
+import SectionEight from "./components/SectionEight";
 import SectionFive from "./components/SectionFive";
 import SectionFour from "./components/SectionFour";
 import SectionOne from "./components/SectionOne";
@@ -25,12 +26,15 @@ const Home = () => {
         <section id="sec04" className="min-h-screen">
           <SectionSeven />
         </section>
-        <section id="sec06" >
+        <section id="sec06">
           <SectionFour />
         </section>
         <section id="sec05">
           <SectionFive />
           <SectionSix />
+        </section>
+        <section id="seclast">
+          <SectionEight />
           <Footer />
         </section>
       </main>

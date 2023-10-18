@@ -14,6 +14,7 @@ const SectionTwo = () => {
       <div className="w-full md:flex md:flex-row z-10 px-[5px] md:px-[50px] mt-[-100px] md:mt-[85px]">
         <div className=" w-full md:w-[20%] md:ml-[100px] mt-[150px] mb-[20px] md:mb-0">
           <img
+            loading="lazy"
             className=" w-[200px] mx-auto"
             src={molly_bj}
             width={630}
@@ -40,6 +41,7 @@ const SectionTwo = () => {
       </div>
       <div id="lor2" className="relative xl:visible invisible ">
         <img
+          loading="lazy"
           className="w-[150px] absolute bottom-[-310px] "
           src={molly}
           width={3000}
@@ -47,10 +49,10 @@ const SectionTwo = () => {
           alt="molly"
         />
       </div>
-      <div className="z-10 bg-[#7e2b40] py-[25px] flex flex-row justify-center shadow xl:mt-[300px] ">
+      <div className="z-10 bg-[#ffc038] py-[10px] flex flex-row justify-center shadow xl:mt-[300px] ">
         <p
           id="lor"
-          className="text-[15px] font-alf text-white text-center w-full "
+          className="text-[13px] font-alf text-black text-center w-full "
         >
           MOLLY. MOLLY. MOLLY. MOLLY. MOLLY. MOLLY. MOLLY. MOLLY. MOLLY. MOLLY.
           MOLLY. MOLLY. MOLLY. MOLLY. MOLLY. MOLLY. MOLLY. MOLLY. MOLLY. MOLLY.

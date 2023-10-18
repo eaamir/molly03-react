@@ -16,6 +16,11 @@
   }
 }
 
+*,
+html {
+  scroll-behavior: smooth !important;
+}
+
 body {
   /* color: rgb(var(--foreground-rgb));
   background: linear-gradient(
@@ -82,7 +87,15 @@ h1 {
       transparent 85%,
       black 100%
     ),
+    linear-gradient(to bottom, transparent 0%, transparent 85%, black 100%),
     url("/src/background-picture.png");
+  background-position: center center;
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+#seclast {
+  background-image: url("/src/img/back10.png");
   background-position: center center;
   background-attachment: scroll;
   background-repeat: no-repeat;
@@ -313,22 +326,6 @@ h1 {
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-/* #moll {
-  animation-name: up;
-  animation-duration: 3s;
-  animation-timing-function: ease-in-out;
-} */
-
-/* @keyframes up {
-  0% {
-    bottom: -300px;
-  }
-
-  50% {
-    bottom: -50px;
-  }
-} */
-
 #lor {
   animation-name: lor;
   animation-duration: 35s;
@@ -404,20 +401,6 @@ h1 {
     font-size: 35px;
   }
 }
-
-/* #smile {
-  rotate: -90deg;
-  animation-name: rightmoll;
-  animation-duration: 1.5s;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-} */
-
-/* @keyframes rightmoll {
-  from{transform: translateY(200px);}
-  to{transform: translateY(150px); rotate: -65deg; }
-} */
 
 #circ1 {
   height: 570px;

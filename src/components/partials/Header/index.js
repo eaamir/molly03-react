@@ -32,6 +32,7 @@ const Header = () => {
       <div id="header" className="w-[940px] h-[75px] flex flex-row mt-[25px] ">
         <div className="basis-1/2 w-[65px] h-[65px] self-center ml-[45px] my-[15px]">
           <img
+          loading="lazy"
             src={mollylg}
             width={65}
             height={65}
@@ -45,7 +46,7 @@ const Header = () => {
               onClick={() => setOpen(!open)}
               ref={dropMenu}
             >
-              <i class="fa-solid fa-bars"></i>
+              <i className="fa-solid fa-bars"></i>
             </div>
           ) : (
             <ul

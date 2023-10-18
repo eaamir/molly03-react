@@ -7,7 +7,7 @@ import etmol from "../../img/etmol.png";
 const SectionFive = () => {
   return (
     <div className=" w-full flex flex-col z-10 ">
-      <div className=" w-full z-10 mt-[100px] ">
+      <div className=" w-full z-10 mt-[150px] ">
         <h1
           id="story"
           className="text-[60px] md:text-[50px] text-[#873016] md:text-[#FCDA6C] font-alf uppercase text-center "
@@ -22,6 +22,7 @@ const SectionFive = () => {
             className="w-[310px] h-[400px] p-[25px] flex flex-col justify-center col hover:scale-[1.1] transition ease-in-out duration-1000"
           >
             <img
+            loading="lazy"
               className="w-[100px] mx-auto "
               src={coin}
               width={150}
@@ -47,6 +48,7 @@ const SectionFive = () => {
             className="w-[310px] h-[450px] p-[25px] flex flex-col hover:scale-[1.1] transition ease-in-out duration-1000 "
           >
             <img
+            loading="lazy"
               className="w-[75px] mx-auto "
               src={eth}
               width={150}
@@ -73,6 +75,7 @@ const SectionFive = () => {
             className="w-[310px] h-[400px] p-[25px] flex flex-col hover:scale-[1.1] transition ease-in-out duration-1000 "
           >
             <img
+            loading="lazy"
               className="w-[100px] mx-auto "
               src={swp}
               width={150}
@@ -98,6 +101,7 @@ const SectionFive = () => {
             className="w-[310px] h-[450px] p-[25px] flex flex-col hover:scale-[1.1] transition ease-in-out duration-1000 "
           >
             <img
+            loading="lazy"
               className="w-[115px] mx-auto "
               src={etmol}
               width={150}
