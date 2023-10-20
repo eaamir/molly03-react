@@ -32,7 +32,7 @@ const Header = () => {
       <div id="header" className="w-[940px] h-[75px] flex flex-row mt-[25px] ">
         <div className="basis-1/2 w-[65px] h-[65px] self-center ml-[45px] my-[15px]">
           <img
-          loading="lazy"
+            loading="lazy"
             src={mollylg}
             width={65}
             height={65}
@@ -46,14 +46,14 @@ const Header = () => {
               onClick={() => setOpen(!open)}
               ref={dropMenu}
             >
-              <i className="fa-solid fa-bars"></i>
+              <i style={{ color: "#ffffff" }} className="fa-solid fa-bars"></i>
             </div>
           ) : (
             <ul
               id="lst"
-              className="flex flex-row  justify-center gap-x-[75px] font-sans uppercase text-[15px]"
+              className="flex flex-row  justify-center gap-x-[75px] font-sans uppercase text-[15px] text-white "
             >
-              <li className="hover:translate-y-1 transition ease-in-out">
+              <li className="hover:translate-y-1 transition ease-in-out ">
                 <a href="/">Telegram</a>
               </li>
               <li className="hover:translate-y-1 transition ease-in-out">
@@ -66,7 +66,7 @@ const Header = () => {
           )}
           {open && (
             <div id="headerDropDown">
-              <ul>
+              <ul className="text-white">
                 <li>
                   <a href="/">Telegram</a>
                 </li>

@@ -4,8 +4,8 @@ import last from "../../img/circmol.png";
 
 const SectionSeven = () => {
   return (
-    <div className="z-50 flex flex-col justify-center mt-[50px] overflow-hidden ">
-      <div className="z-50 mt-[150px] ">
+    <div className="z-50 flex flex-col justify-center md:mt-[50px] overflow-hidden ">
+      <div className="z-50 mt-[100px] xl:mt-[150px] ">
         <h1 className="z-50 font-alf text-[40px] uppercase text-center text-[#fff0a4] ">
           Molly chart
         </h1>

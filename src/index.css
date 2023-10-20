@@ -36,6 +36,14 @@ body {
   background-size: cover;
 }
 
+@media (max-width: 425px) {
+  body {
+    background-position: bottom center;
+  }
+}
+
+
+
 h1 {
   text-shadow: 2px 2px black;
 }
@@ -46,69 +54,72 @@ h1 {
   background-position: center center;
   background-attachment: scroll;
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: cover;
 }
+
+
 #sec02 {
   background-image: linear-gradient(transparent 0%, transparent 75%, black 100%),
     url("/src/img/landing00.png");
   background-position: center center;
   background-attachment: scroll;
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: cover;
 }
+
 #sec03 {
   background-image: linear-gradient(transparent 0%, transparent 75%, black 100%),
     url("/src/img/landing03copy4.png");
   background-position: center center;
   background-attachment: scroll;
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: cover;
 }
+
 #sec04 {
   background-image: linear-gradient(transparent 0%, transparent 75%, black 100%),
     url("/src/img/landing04.png");
   background-position: center center;
   background-attachment: scroll;
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: cover;
 }
+
 #sec06 {
   background-image: linear-gradient(transparent 0%, transparent 75%, black 100%),
     url("/src/img/landlast.png");
   background-position: center center;
   background-attachment: scroll;
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: cover;
 }
+
 #sec05 {
-  background-image: linear-gradient(
-      to top,
+  background-image: linear-gradient(to top,
       transparent 0%,
       transparent 85%,
-      black 100%
-    ),
+      black 100%),
     linear-gradient(to bottom, transparent 0%, transparent 85%, black 100%),
     url("/src/background-picture.png");
   background-position: center center;
   background-attachment: scroll;
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: cover;
 }
+
 #seclast {
   background-image: url("/src/img/back10.png");
   background-position: center center;
   background-attachment: scroll;
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: cover;
 }
 
 #header {
   border-radius: 50px;
-  background: linear-gradient(
-    119deg,
-    rgba(255, 255, 255, 0.12) 20.01%,
-    rgba(255, 255, 255, 0.03) 84.47%
-  );
+  background: linear-gradient(119deg,
+      rgba(255, 255, 255, 0.12) 20.01%,
+      rgba(255, 255, 255, 0.03) 84.47%);
   box-shadow: 0px 4px 24px -1px rgba(116, 116, 116, 0.2);
   -webkit-backdrop-filter: blur(15px);
   backdrop-filter: blur(15px);
@@ -290,13 +301,13 @@ h1 {
   -webkit-text-stroke: 3px #9c2a1e;
 }
 
+
+
 #endbox {
   border-radius: 25px;
-  background: linear-gradient(
-    285deg,
-    rgba(65, 14, 18, 0.51) 11.64%,
-    rgba(248, 156, 32, 0.51) 65.04%
-  );
+  background: linear-gradient(285deg,
+      rgba(65, 14, 18, 0.51) 11.64%,
+      rgba(248, 156, 32, 0.51) 65.04%);
   box-shadow: 0px 4px 24px -1px rgba(116, 116, 116, 0.2);
   -webkit-backdrop-filter: blur(15px);
   backdrop-filter: blur(15px);
@@ -304,11 +315,9 @@ h1 {
 
 #endbox2 {
   border-radius: 25px;
-  background: linear-gradient(
-    98deg,
-    rgba(72, 19, 18, 0.51) 4.62%,
-    rgba(248, 156, 32, 0.51) 89.22%
-  );
+  background: linear-gradient(98deg,
+      rgba(72, 19, 18, 0.51) 4.62%,
+      rgba(248, 156, 32, 0.51) 89.22%);
   box-shadow: 0px 4px 24px -1px rgba(116, 116, 116, 0.2);
   -webkit-backdrop-filter: blur(15px);
   backdrop-filter: blur(15px);
@@ -340,6 +349,7 @@ h1 {
 #lor:hover {
   animation-play-state: paused;
 }
+
 @keyframes lor {
   from {
     transform: translate(-100%);
@@ -349,6 +359,7 @@ h1 {
     transform: translate(100%);
   }
 }
+
 #lor2 {
   animation-name: lor2;
   animation-duration: 25s;
@@ -366,6 +377,7 @@ h1 {
     transform: translate(100%);
   }
 }
+
 #lor3 {
   animation-name: lor2;
   animation-duration: 47s;
@@ -396,11 +408,6 @@ h1 {
   }
 }
 
-@media (max-width: 768px) {
-  #phase {
-    font-size: 35px;
-  }
-}
 
 #circ1 {
   height: 570px;
@@ -431,6 +438,7 @@ h1 {
 #circ2:hover {
   background-color: #c42d2d;
 }
+
 #circ3 {
   height: 410px;
   width: 410px;

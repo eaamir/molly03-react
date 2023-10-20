@@ -4,8 +4,16 @@ import mollie from "../../img/mollyie.png";
 
 const SectionEight = () => {
   return (
-    <div className="  flex flex-col z-10 mx-auto p-[20px] rounded-lg overflow-hidden mt-[25px] ">
-      <div className="flex flex-row justify-center w-full mt-[350px] ">
+    <div className="flex flex-col z-10 mx-auto p-[20px] rounded-lg overflow-hidden mt-[25px] ">
+      <div className=" w-full z-10 mt-[50px] ">
+        <h1
+          id="story"
+          className="text-[47px] md:text-[50px] text-[#FCDA6C] font-alf uppercase text-center "
+        >
+          Social media ...
+        </h1>
+      </div>
+      <div className="flex flex-row justify-center w-full mt-[100px] xl:mt-[150px] ">
         <img
           loading="lazy"
           className="w-[175px] "
@@ -15,9 +23,9 @@ const SectionEight = () => {
           alt="mollyzz"
         />
       </div>
-      <div id="header" className="mx-[200px] ">
+      <div id="header" className="xl:mx-[200px] ">
         <div className=" w-full z-10 mt-[15px] ">
-          <h1 className="text-[24px] md:text-[29px] text-white lg:bg-transparent font-alf capitalize text-center w-[80%] lg:w-full mx-auto p-[20px] rounded-md">
+          <h1 className="text-[24px] md:text-[29px] text-white lg:bg-transparent font-alf capitalize text-center md:w-[80%] lg:w-full mx-auto xl:p-[20px] rounded-md">
             Follow Us on <span className="text-[#873016] ">social media</span>{" "}
             and connect with us ...
           </h1>

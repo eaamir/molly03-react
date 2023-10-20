@@ -10,13 +10,13 @@ const SectionFive = () => {
       <div className=" w-full z-10 mt-[150px] ">
         <h1
           id="story"
-          className="text-[60px] md:text-[50px] text-[#873016] md:text-[#FCDA6C] font-alf uppercase text-center "
+          className="text-[47px] md:text-[50px] text-[#FCDA6C] font-alf uppercase text-center "
         >
           How to Buy ...
         </h1>
       </div>
       <div className="w-full z-10 flex flex-row justify-center mt-[75px]">
-        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-[35px]">
+        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-[35px] ">
           <div
             id="header"
             className="w-[310px] h-[400px] p-[25px] flex flex-col justify-center col hover:scale-[1.1] transition ease-in-out duration-1000"

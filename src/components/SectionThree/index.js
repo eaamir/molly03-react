@@ -15,7 +15,7 @@ const SectionThree = () => {
         <div className="xl:w-[20%] w-[50%] mr-[100px] pt-[100px] xl:block mx-auto">
           <img
             id="smile"
-            className=" w-[190px] "
+            className=" w-[183px] "
             loading="lazy"
             src={moll10}
             width={630}

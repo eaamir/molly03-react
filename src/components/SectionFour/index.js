@@ -4,7 +4,7 @@ import mollzz from "../../img/mollzz.png";
 const SectionFour = () => {
   return (
     <div className="  flex flex-col z-10 mx-auto p-[20px] rounded-lg">
-      <div className="flex flex-row justify-center w-full mt-[50px] ">
+      <div className="flex flex-row justify-center w-full mt-[150px] xl:mt-[50px] ">
         <img
         loading="lazy"
           className="w-[185px] "
@@ -17,7 +17,7 @@ const SectionFour = () => {
       <div className=" w-full z-10 mt-[25px] ">
         <h1
           id="story02"
-          className="text-[24px] md:text-[30px] text-white lg:bg-transparent font-alf capitalize text-center w-[80%] lg:w-full mx-auto p-[20px] rounded-md"
+          className="text-[24px] md:text-[30px] text-white lg:bg-transparent font-alf capitalize text-center w-full md:w-[80%] lg:w-full mx-auto p-[20px] rounded-md"
         >
           Connect your OKX Wallet to be entered into a daily $250 worth of
           $Molly giveaway!

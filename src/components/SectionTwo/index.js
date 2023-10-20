@@ -11,8 +11,8 @@ const SectionTwo = () => {
           The Story of Molly
         </h1>
       </div>
-      <div className="w-full md:flex md:flex-row z-10 px-[5px] md:px-[50px] mt-[-100px] md:mt-[85px]">
-        <div className=" w-full md:w-[20%] md:ml-[100px] mt-[150px] mb-[20px] md:mb-0">
+      <div className="w-full md:flex md:flex-row z-10 px-[5px] md:px-[50px] mt-[-100px] md:mt-[100px]">
+        <div className=" w-full xl:w-[20%] xl:ml-[100px] mt-[150px] mb-[20px] xl:mb-0">
           <img
             loading="lazy"
             className=" w-[200px] mx-auto"
@@ -24,7 +24,7 @@ const SectionTwo = () => {
         </div>
         <div
           id="header"
-          className="w-[95%] mb-[100px] mx-auto md:w-[60%] md:mr-[100px] md:ml-[50px] px-[20px] sm:px-[50px] py-[25px] flex flex-col justify-center "
+          className="w-[95%] mb-[100px] mx-auto xl:w-[60%] xl:mr-[100px] xl:ml-[50px] px-[20px] sm:px-[50px] py-[25px] flex flex-col justify-center "
         >
           <h1 className="font-alf text-[26px] sm:text-[27px] text-white ">
             About

@@ -59,7 +59,7 @@ const SectionOne = () => {
           </a>
         </div>
       </div>
-      <div className="z-10 bg-[#ffbf70] py-[10px] flex flex-row justify-center shadow mt-[45px]">
+      <div className="z-10 bg-[#ffbf70] py-[10px] flex flex-row justify-center shadow mt-[15px] md:mt-[45px]">
         <p
           id="lor"
           className="text-[13px] font-alf text-[#410e12] text-center w-full"

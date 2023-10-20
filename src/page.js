@@ -13,7 +13,7 @@ const Home = () => {
   return (
     <>
       <main>
-        <section id="sec01" className="min-h-screen">
+        <section id="sec01" className=" min-h-screen">
           <Header />
           <SectionOne />
         </section>
