@@ -1,4 +1,4 @@
-import React, { useRef, useLayoutEffect } from "react";
+import React from "react";
 
 import molly_bj from "../../img/molly01ibj.png";
 import molly from "../../img/mol02obj.png";
@@ -67,7 +67,7 @@ const SectionTwo = () => {
         </h1>
       </div>
       <div className="w-full md:flex md:flex-row z-10 px-[5px] md:px-[50px] mt-[-100px] md:mt-[100px]">
-        <div className=" w-full xl:w-[20%] xl:ml-[100px] mt-[150px] mb-[20px] xl:mb-0" ref={molleft} >
+        <div className=" w-full xl:w-[20%] xl:ml-[100px] mt-[150px] mb-[20px] xl:mb-0" >
           <img
             loading="lazy"
             className=" w-[200px] mx-auto"
