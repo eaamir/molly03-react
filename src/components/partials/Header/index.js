@@ -1,6 +1,8 @@
 import React, { useEffect, useRef, useState } from "react";
 import mollylg from "../../../img/MOLLY.png";
 
+
+
 const Header = () => {
   const dropMenu = useRef(null);
 
@@ -27,9 +29,13 @@ const Header = () => {
     window.addEventListener("resize", handleWindowResize);
   }, []);
 
+
+
+
+
   return (
-    <div className="flex justify-center mx-[20px]">
-      <div id="header" className="w-[940px] h-[75px] flex flex-row mt-[25px] ">
+    <div id="hd" className="flex justify-center mx-[20px] " >
+      <div id="header" className="w-[940px] h-[75px] flex flex-row mt-[25px]">
         <div className="basis-1/2 w-[65px] h-[65px] self-center ml-[45px] my-[15px]">
           <img
             loading="lazy"
@@ -53,7 +59,7 @@ const Header = () => {
               id="lst"
               className="flex flex-row  justify-center gap-x-[75px] font-sans uppercase text-[15px] text-white "
             >
-              <li className="hover:translate-y-1 transition ease-in-out ">
+              <li className="hover:translate-y-1 transition ease-in-out " >
                 <a href="/">Telegram</a>
               </li>
               <li className="hover:translate-y-1 transition ease-in-out">

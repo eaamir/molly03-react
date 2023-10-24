@@ -1,9 +1,43 @@
-import React from "react";
+import React, { useRef, useLayoutEffect, Link } from "react";
 import molly15 from "../../img/molly15.png";
+import gsap from "gsap";
+
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+
+
+gsap.registerPlugin(ScrollTrigger);
+
 
 const SectionSix = () => {
+
+
+  // gsap animation
+  const exited = useRef()
+
+  useLayoutEffect(() => {
+
+    gsap.from(exited.current, { bottom: "-100%" })
+
+    const anim = gsap.to(exited.current, { bottom: "10px", duration: 1, paused: true })
+
+    ScrollTrigger.create({
+      trigger: exited.current,
+      start: "bottom center",
+      onEnter: () => anim.play()
+    });
+
+    ScrollTrigger.create({
+      trigger: exited.current,
+      start: "center bottom",
+      onLeaveBack: () => anim.pause(0)
+    });
+
+  }, [])
+
+
+
   return (
-    <div className=" w-full flex flex-col z-10 mt-[100px] overflow-hidden ">
+    <div className=" w-full flex flex-col z-10 mt-[100px] ">
       <div className=" w-full z-10 ">
         <h1
           id="story"
@@ -63,7 +97,17 @@ const SectionSix = () => {
           </div>
         </div>
       </div>
-      <div className="z-10 bg-[#9b8520] py-[10px] flex flex-row justify-center shadow xl:mt-[25px] ">
+      <section className="flex flex-row justify-center sticky bottom-[10px] z-50" ref={exited} >
+        <div className=" w-[50%] h-[100px] flex flex-row justify-between items-center px-[50px] rounded-3xl bg-amber-500 shadow-lg " >
+
+          <h1 className="text-center text-white font-alf text-[25px] uppercase h-fit " >You are not <span className="text-orange-700 " >excited</span> yet !</h1>
+          <a
+            href="#sec02"
+            id="btnext" className=" bg-white hover:bg-yellow-500 text-orange-700 hover:text-black uppercase text-[16px] font-sans font-bold tracking-wide px-[25px] py-[15px] rounded-xl shadow-lg hover:scale-[1.1] transition duration-500 " >Explore more</a>
+
+        </div>
+      </section>
+      <div className="z-10 bg-[#9b8520] py-[10px] flex flex-row justify-center shadow xl:mt-[25px] overflow-hidden ">
         <p
           id="lor"
           className="text-[13px] font-alf text-white text-center w-full "

@@ -92,12 +92,10 @@ h1 {
 }
 
 #sec05 {
-  background-image: linear-gradient(
-      to top,
+  background-image: linear-gradient(to top,
       transparent 0%,
       transparent 85%,
-      black 100%
-    ),
+      black 100%),
     linear-gradient(to bottom, transparent 0%, transparent 85%, black 100%),
     url("/src/background-picture.png");
   background-position: center center;
@@ -116,11 +114,9 @@ h1 {
 
 #header {
   border-radius: 50px;
-  background: linear-gradient(
-    119deg,
-    rgba(255, 255, 255, 0.12) 20.01%,
-    rgba(255, 255, 255, 0.03) 84.47%
-  );
+  background: linear-gradient(119deg,
+      rgba(255, 255, 255, 0.12) 20.01%,
+      rgba(255, 255, 255, 0.03) 84.47%);
   box-shadow: 0px 4px 24px -1px rgba(116, 116, 116, 0.2);
   -webkit-backdrop-filter: blur(15px);
   backdrop-filter: blur(15px);
@@ -304,11 +300,9 @@ h1 {
 
 #endbox {
   border-radius: 25px;
-  background: linear-gradient(
-    285deg,
-    rgba(65, 14, 18, 0.51) 11.64%,
-    rgba(248, 156, 32, 0.51) 65.04%
-  );
+  background: linear-gradient(285deg,
+      rgba(65, 14, 18, 0.51) 11.64%,
+      rgba(248, 156, 32, 0.51) 65.04%);
   box-shadow: 0px 4px 24px -1px rgba(116, 116, 116, 0.2);
   -webkit-backdrop-filter: blur(15px);
   backdrop-filter: blur(15px);
@@ -316,11 +310,9 @@ h1 {
 
 #endbox2 {
   border-radius: 25px;
-  background: linear-gradient(
-    98deg,
-    rgba(72, 19, 18, 0.51) 4.62%,
-    rgba(248, 156, 32, 0.51) 89.22%
-  );
+  background: linear-gradient(98deg,
+      rgba(72, 19, 18, 0.51) 4.62%,
+      rgba(248, 156, 32, 0.51) 89.22%);
   box-shadow: 0px 4px 24px -1px rgba(116, 116, 116, 0.2);
   -webkit-backdrop-filter: blur(15px);
   backdrop-filter: blur(15px);

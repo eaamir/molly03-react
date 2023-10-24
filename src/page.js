@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState, useRef, useLayoutEffect } from "react";
 import mollylg from "./img/MOLLY.png";
 
 import Footer from "./components/Footer";
@@ -53,6 +53,9 @@ const Home = () => {
     }
   }, [loadText, textLoading]);
 
+
+
+
   return (
     <>
       {loading && (
@@ -86,15 +89,18 @@ const Home = () => {
         </section>
         <section id="sec06">
           <SectionFour />
+
         </section>
-        <section id="sec05">
+        <section id="sec05" >
           <SectionFive />
           <SectionSix />
+
         </section>
         <section id="seclast">
           <SectionEight />
           <Footer />
         </section>
+
       </main>
     </>
   );
