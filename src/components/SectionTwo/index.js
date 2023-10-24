@@ -1,62 +1,62 @@
-import React from "react";
+import React, { useRef, useLayoutEffect } from "react";
 
 import molly_bj from "../../img/molly01ibj.png";
 import molly from "../../img/mol02obj.png";
 
-// import { gsap } from "gsap";
-// import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 
-// gsap.registerPlugin(ScrollTrigger);
+gsap.registerPlugin(ScrollTrigger);
 
 const SectionTwo = () => {
 
-  // const molleft = useRef();
+  const molleft = useRef();
 
-  // useLayoutEffect(() => {
+  useLayoutEffect(() => {
 
-  //   gsap.from(molleft.current, { x: "-200px" })
+    gsap.from(molleft.current, { x: "-200px" })
 
-  //   const anim = gsap.to(molleft.current, { x: "70px", paused: true });
-
-
-  //   ScrollTrigger.create({
-  //     trigger: molleft.current,
-  //     start: "center 70%",
-  //     onEnter: () => anim.play()
-  //   });
-
-  //   ScrollTrigger.create({
-  //     trigger: molleft.current,
-  //     start: "top bottom",
-  //     onLeaveBack: () => anim.pause(0)
-  //   });
-
-  // gsap.to(molleft.current, {
-  //   x: -200,
-  //   scrollTrigger: {
-  //     trigger: molleft.current,
-  //     start: 'left center',
-  //     end: 'center center',
-  //     scrub: true
-  //   }
-  // });
-
-  // gsap.to(molleft.current, {
-  //   x: "50%",
-  //   scrollTrigger: {
-  //     trigger: molleft.current,
-  //     start: 'center center',
-  //     end: 'center left',
-  //     scrub: true
-  //   }
+    const anim = gsap.to(molleft.current, { x: "70px", paused: true });
 
 
+    // ScrollTrigger.create({
+    //   trigger: molleft.current,
+    //   start: "center 70%",
+    //   onEnter: () => anim.play()
+    // });
+
+    // ScrollTrigger.create({
+    //   trigger: molleft.current,
+    //   start: "top bottom",
+    //   onLeaveBack: () => anim.pause(0)
+    // });
+
+    gsap.to(molleft.current, {
+      x: -200,
+      scrollTrigger: {
+        trigger: molleft.current,
+        start: 'left center',
+        end: 'center center',
+        scrub: true
+      }
+    });
+
+    gsap.to(molleft.current, {
+      x: "50%",
+      scrollTrigger: {
+        trigger: molleft.current,
+        start: 'center center',
+        end: 'center left',
+        scrub: true
+      }
 
 
-  // });
 
-  // }, []);
+
+    });
+
+  }, []);
 
 
   return (
@@ -67,7 +67,7 @@ const SectionTwo = () => {
         </h1>
       </div>
       <div className="w-full md:flex md:flex-row z-10 px-[5px] md:px-[50px] mt-[-100px] md:mt-[100px]">
-        <div className=" w-full xl:w-[20%] xl:ml-[100px] mt-[150px] mb-[20px] xl:mb-0" >
+        <div className=" w-full xl:w-[20%] xl:ml-[100px] mt-[150px] mb-[20px] xl:mb-0" ref={molleft} >
           <img
             loading="lazy"
             className=" w-[200px] mx-auto"
