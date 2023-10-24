@@ -98,12 +98,12 @@ const SectionSix = () => {
         </div>
       </div>
       <section className="flex flex-row justify-center sticky bottom-[10px] z-50" ref={exited} >
-        <div className=" w-[50%] h-[100px] flex flex-row justify-between items-center px-[50px] rounded-3xl bg-amber-500 shadow-lg " >
+        <div className=" w-full xl:w-[50%] h-[75px] md:h-[100px] flex flex-row justify-between items-center px-[10px] md:px-[50px] rounded-3xl bg-amber-500 shadow-lg " >
 
-          <h1 className="text-center text-white font-alf text-[25px] uppercase h-fit " >You are not <span className="text-orange-700 " >excited</span> yet !</h1>
+          <h1 className="text-center text-white font-alf text-[15px] md:text-[25px] uppercase h-fit " >You are not <span className="text-orange-700 " >excited</span> yet !</h1>
           <a
             href="#sec02"
-            id="btnext" className=" bg-white hover:bg-yellow-500 text-orange-700 hover:text-black uppercase text-[16px] font-sans font-bold tracking-wide px-[25px] py-[15px] rounded-xl shadow-lg hover:scale-[1.1] transition duration-500 " >Explore more</a>
+            id="btnext" className=" bg-white hover:bg-yellow-500 text-orange-700 hover:text-black uppercase text-center text-[13px] md:text-[16px] font-sans font-bold tracking-wide px-[15px] md:px-[25px] py-[10px] md:py-[15px] rounded-xl shadow-lg hover:scale-[1.1] transition duration-500 " >Explore more</a>
 
         </div>
       </section>
