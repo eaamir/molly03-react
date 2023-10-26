@@ -58,8 +58,8 @@ const Home = () => {
 
   return (
     <>
-      {loading && (
-        <div className="h-full w-full absolute z-50 bg-black text-white text-[40px]">
+      {loading ? (
+        <div id="preload" className="h-full w-full absolute z-50 bg-black text-white text-[40px]">
           <div className="absolute top-[50%] left-[50%] mt-[-20px] ml-[-120px] flex items-center">
             <img
               loading="lazy"
@@ -72,8 +72,7 @@ const Home = () => {
             {loadText}
           </div>
         </div>
-      )}
-      <main>
+      ) : (<main id="manii" >
         <section id="sec01" className=" min-h-screen">
           <Header />
           <SectionOne />
@@ -101,7 +100,8 @@ const Home = () => {
           <Footer />
         </section>
 
-      </main>
+      </main>)}
+
     </>
   );
 };

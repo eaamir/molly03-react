@@ -1,5 +1,4 @@
 import React, { useRef, useLayoutEffect, Link } from "react";
-import molly15 from "../../img/molly15.png";
 import gsap from "gsap";
 
 import { ScrollTrigger } from "gsap/ScrollTrigger";

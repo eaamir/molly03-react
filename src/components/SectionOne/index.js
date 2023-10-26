@@ -2,7 +2,7 @@ import React from "react";
 
 const SectionOne = () => {
   return (
-    <div className=" mt-[25px] overflow-hidden " load>
+    <div className=" mt-[25px] overflow-hidden " >
       <div className="flex flex-row justify-center ">
         <h1 className="font-alf text-[40px] capitalize text-white ">
           Hello i'm molly

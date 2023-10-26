@@ -22,24 +22,52 @@ html {
 }
 
 body {
-  /* color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(to bottom,
       transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb)); */
-  background-image: url("/src/sky03.png");
-  background-position: center right;
-  background-attachment: fixed;
-  /* background-repeat: repeat-y; */
-  background-size: cover;
+      rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
+
 }
 
 @media (max-width: 425px) {
   body {
     background-position: bottom center;
   }
+}
+
+#preload {
+  animation-name: loading;
+  animation-duration: 1s;
+}
+
+@keyframes loading {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+#manii {
+  animation-name: body;
+  animation-duration: 1s;
+  background-image: url("/src/sky03.png");
+  background-position: center right;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+@keyframes body {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+
 }
 
 h1 {
@@ -441,4 +469,32 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px #f89c20; 
+  border-radius: 5px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ff9100; 
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #8e5000; 
+}
+
+::-webkit-scrollbar-track-piece {
+  background: linear-gradient(black,#ff9100); 
 }

@@ -24,8 +24,8 @@ const SectionEight = () => {
         />
       </div>
       <div id="header" className="xl:mx-[200px] ">
-        <div className=" w-full z-10 mt-[15px] ">
-          <h1 className="text-[24px] md:text-[29px] text-white lg:bg-transparent font-alf capitalize text-center md:w-[80%] lg:w-full mx-auto xl:p-[20px] rounded-md">
+        <div className=" w-full z-10 mt-[15px] px-[10px] ">
+          <h1 className="text-[22px] md:text-[29px] text-white lg:bg-transparent font-alf capitalize text-center md:w-[80%] lg:w-full mx-auto xl:p-[20px] rounded-md">
             Follow Us on <span className="text-[#873016] ">social media</span>{" "}
             and connect with us ...
           </h1>

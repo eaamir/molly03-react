@@ -20,17 +20,17 @@ const SectionTwo = () => {
   //   const anim = gsap.to(molleft.current, { x: "70px", paused: true });
 
 
-    // ScrollTrigger.create({
-    //   trigger: molleft.current,
-    //   start: "center 70%",
-    //   onEnter: () => anim.play()
-    // });
+  // ScrollTrigger.create({
+  //   trigger: molleft.current,
+  //   start: "center 70%",
+  //   onEnter: () => anim.play()
+  // });
 
-    // ScrollTrigger.create({
-    //   trigger: molleft.current,
-    //   start: "top bottom",
-    //   onLeaveBack: () => anim.pause(0)
-    // });
+  // ScrollTrigger.create({
+  //   trigger: molleft.current,
+  //   start: "top bottom",
+  //   onLeaveBack: () => anim.pause(0)
+  // });
 
   //   gsap.to(molleft.current, {
   //     x: -200,
@@ -72,8 +72,6 @@ const SectionTwo = () => {
             loading="lazy"
             className=" w-[200px] mx-auto"
             src={molly_bj}
-            width={630}
-            height={1055}
             alt="background3"
           />
         </div>
