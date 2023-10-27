@@ -1,6 +1,7 @@
 import React from "react";
 
 import mollie from "../../img/mollyie.png";
+import { Link } from "react-router-dom";
 
 const SectionEight = () => {
   return (
@@ -13,7 +14,7 @@ const SectionEight = () => {
           Social media ...
         </h1>
       </div>
-      <div className="flex flex-row justify-center w-full mt-[100px] xl:mt-[150px] ">
+      <div className="flex flex-row justify-center w-full mt-[200px] xl:mt-[150px] ">
         <img
           loading="lazy"
           className="w-[175px] "
@@ -23,7 +24,7 @@ const SectionEight = () => {
           alt="mollyzz"
         />
       </div>
-      <div id="header" className="xl:mx-[200px] ">
+      <div id="header" className="xl:mx-[200px] z-[1] ">
         <div className=" w-full z-10 mt-[15px] px-[10px] ">
           <h1 className="text-[22px] md:text-[29px] text-white lg:bg-transparent font-alf capitalize text-center md:w-[80%] lg:w-full mx-auto xl:p-[20px] rounded-md">
             Follow Us on <span className="text-[#873016] ">social media</span>{" "}
@@ -66,6 +67,29 @@ const SectionEight = () => {
               </a>
             </div>
           </div>
+        </div>
+      </div>
+      <div className="grid grid-cols-1 xl:grid-cols-3 xl:mx-[250px] justify-items-center  ">
+        <div className="bg-[#873016] flex justify-center items-center border-white border-b-2 border-x-2 xl:rounded-b-3xl shadow-md w-[300px] h-[75px] hover:xl:translate-y-[9px] transition duration-500 ease-out mb-[10px] mt-[-10px] z-[0] hover:border-[#873016] hover:bg-[#ffa735] ">
+          <Link className="w-full">
+            <h1 className=" text-center font-alf text-[21px] capitalize hover:text-[#873016] w-full h-full leading-[75px] duration-500 ">
+              LicePaper
+            </h1>
+          </Link>
+        </div>
+        <div className="bg-[#873016] flex justify-center items-center border-white border-b-2 border-x-2 xl:rounded-b-3xl shadow-md w-[300px] h-[75px] hover:xl:translate-y-[9px] transition duration-500 ease-out mb-[10px] mt-[-10px] z-[0] hover:border-[#873016] hover:bg-[#ffa735] ">
+          <Link className="w-full">
+            <h1 className=" text-center font-alf text-[21px] capitalize hover:text-[#873016] w-full h-full leading-[75px] duration-500 ">
+              EtherScan
+            </h1>
+          </Link>
+        </div>
+        <div className="bg-[#873016] flex justify-center items-center border-white border-b-2 border-x-2 rounded-b-3xl shadow-md w-[300px] h-[75px] hover:xl:translate-y-[9px] transition duration-500 ease-out xl:mb-[10px] mt-[-10px] z-[0] hover:border-[#873016] hover:bg-[#ffa735] ">
+          <Link className="w-full">
+            <h1 className=" text-center font-alf text-[21px] capitalize hover:text-[#873016] w-full h-full leading-[75px] duration-500 ">
+              DexTools
+            </h1>
+          </Link>
         </div>
       </div>
     </div>

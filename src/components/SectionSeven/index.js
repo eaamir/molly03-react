@@ -1,6 +1,6 @@
 import React from "react";
 
-import last from "../../img/circmol.png";
+import last from "../../img/circmol02.png";
 
 const SectionSeven = () => {
   return (
