@@ -53,13 +53,13 @@ const Home = () => {
     }
   }, [loadText, textLoading]);
 
-
-
-
   return (
     <>
       {loading ? (
-        <div id="preload" className="h-full w-full absolute z-50 bg-black text-white text-[40px]">
+        <div
+          id="preload"
+          className="h-full w-full absolute z-50 bg-black text-white text-[40px]"
+        >
           <div className="absolute top-[50%] left-[50%] mt-[-20px] ml-[-120px] flex items-center">
             <img
               loading="lazy"
@@ -72,36 +72,34 @@ const Home = () => {
             {loadText}
           </div>
         </div>
-      ) : (<main id="manii" >
-        <section id="sec01" className=" min-h-screen">
-          <Header />
-          <SectionOne />
-        </section>
-        <section id="sec02" className="min-h-screen ">
-          <SectionTwo />
-        </section>
-        <section id="sec03" className="min-h-screen">
-          <SectionThree />
-        </section>
-        <section id="sec04" className="min-h-screen">
-          <SectionSeven />
-        </section>
-        <section id="sec06">
-          <SectionFour />
-
-        </section>
-        <section id="sec05" >
-          <SectionFive />
-          <SectionSix />
-
-        </section>
-        <section id="seclast">
-          <SectionEight />
-          <Footer />
-        </section>
-
-      </main>)}
-
+      ) : (
+        <main id="manii">
+          <section id="sec01" className=" min-h-screen">
+            <Header />
+            <SectionOne />
+          </section>
+          <section id="sec02" className="min-h-screen ">
+            <SectionTwo />
+          </section>
+          <section id="sec03" className="min-h-screen">
+            <SectionThree />
+          </section>
+          <section id="sec04" className="min-h-screen">
+            <SectionSeven />
+          </section>
+          <section id="sec06">
+            <SectionFour />
+          </section>
+          <section id="sec05">
+            <SectionFive />
+            <SectionSix />
+          </section>
+          <section id="seclast">
+            <SectionEight />
+            <Footer />
+          </section>
+        </main>
+      )}
     </>
   );
 };

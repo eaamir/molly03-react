@@ -71,7 +71,7 @@ const SectionEight = () => {
       </div>
       <div className="grid grid-cols-1 xl:grid-cols-3 xl:mx-[250px] justify-items-center  ">
         <div className="bg-[#873016] flex justify-center items-center border-white border-b-2 border-x-2 xl:rounded-b-3xl shadow-md w-[300px] h-[75px] hover:xl:translate-y-[9px] transition duration-500 ease-out mb-[10px] mt-[-10px] z-[0] hover:border-[#873016] hover:bg-[#ffa735] ">
-          <Link className="w-full">
+          <Link to="/licepoper/mollytoken" className="w-full">
             <h1 className=" text-center font-alf text-[21px] capitalize hover:text-[#873016] w-full h-full leading-[75px] duration-500 ">
               LicePaper
             </h1>
