@@ -51,7 +51,8 @@ const LicePoper = () => {
     }
   }, [loadText, textLoading]);
 
-  const [active, setActive] = useState(true);
+  const [tab, setTab] = useState(1);
+
   return (
     <>
       {loading ? (
@@ -133,74 +134,83 @@ const LicePoper = () => {
               className="w-[30%] h-fit py-[25px] flex justify-start items-center "
             >
               <ul className=" border-l-2 pl-[25px] w-full flex flex-col gap-[15px] mx-[50px] font-alf text-center text-[20px] capitalize ">
-                <Link
-                  onClick={() => setActive(true)}
-                  to="/licepoper/mollytoken"
-                >
+                <Link onClick={() => setTab(1)} to="/licepoper/mollytoken">
                   <li
                     id="shadow"
-                    className={` ${
-                      active
-                        ? "bg-[#f5490b] rounded-3xl py-[10px] px-[15px] w-fit hover:bg-[#ffc859] transition"
-                        : "bg-[#f59e0b] rounded-3xl py-[10px] px-[15px] w-fit hover:bg-[#ffc859] transition"
+                    className={`rounded-3xl py-[10px] px-[15px] w-fit hover:bg-[#ffc859] transition ${
+                      tab === 1 ? "bg-[#f5490b]" : "bg-[#f59e0b]"
                     }`}
                   >
                     molly token
                   </li>
                 </Link>
-                <Link to="/licepoper/whymolly">
+                <Link onClick={() => setTab(2)} to="/licepoper/whymolly">
                   <li
                     id="shadow"
-                    className="bg-[#f59e0b] rounded-3xl py-[10px] px-[15px] w-fit hover:bg-[#ffc859] active:bg-[#f58c0b]  "
+                    className={`rounded-3xl py-[10px] px-[15px] w-fit hover:bg-[#ffc859] transition ${
+                      tab === 2 ? "bg-[#f5490b]" : "bg-[#f59e0b]"
+                    }`}
                   >
                     why molly
                   </li>
                 </Link>
-                <Link to="/licepoper/features">
+                <Link onClick={() => setTab(3)} to="/licepoper/features">
                   <li
                     id="shadow"
-                    className="bg-[#f59e0b] rounded-3xl py-[10px] px-[15px] w-fit hover:bg-[#ffc859] active:bg-[#f58c0b]  "
+                    className={`rounded-3xl py-[10px] px-[15px] w-fit hover:bg-[#ffc859] transition ${
+                      tab === 3 ? "bg-[#f5490b]" : "bg-[#f59e0b]"
+                    }`}
                   >
                     features
                   </li>
                 </Link>
-                <Link to="/licepoper/mollyfarming">
+                <Link onClick={() => setTab(4)} to="/licepoper/mollyfarming">
                   <li
                     id="shadow"
-                    className=" bg-[#f59e0b] rounded-3xl py-[10px] px-[15px] w-fit hover:bg-[#ffc859] active:bg-[#f58c0b]"
+                    className={`rounded-3xl py-[10px] px-[15px] w-fit hover:bg-[#ffc859] transition ${
+                      tab === 4 ? "bg-[#f5490b]" : "bg-[#f59e0b]"
+                    }`}
                   >
                     $molly farming
                   </li>
                 </Link>
-                <Link to="/licepoper/mollymerch">
+                <Link onClick={() => setTab(5)} to="/licepoper/mollymerch">
                   <li
                     id="shadow"
-                    className=" bg-[#f59e0b] rounded-3xl py-[10px] px-[15px] w-fit hover:bg-[#ffc859] active:bg-[#f58c0b]"
+                    className={`rounded-3xl py-[10px] px-[15px] w-fit hover:bg-[#ffc859] transition ${
+                      tab === 5 ? "bg-[#f5490b]" : "bg-[#f59e0b]"
+                    }`}
                   >
                     $molly merch
                   </li>
                 </Link>
 
-                <Link to="/licepoper/mollynft">
+                <Link onClick={() => setTab(6)} to="/licepoper/mollynft">
                   <li
                     id="shadow"
-                    className=" bg-[#f59e0b] rounded-3xl py-[10px] px-[15px] w-fit hover:bg-[#ffc859] active:bg-[#f58c0b]"
+                    className={`rounded-3xl py-[10px] px-[15px] w-fit hover:bg-[#ffc859] transition ${
+                      tab === 6 ? "bg-[#f5490b]" : "bg-[#f59e0b]"
+                    }`}
                   >
                     $molly NFT
                   </li>
                 </Link>
-                <Link to="/licepoper/tokenomics">
+                <Link onClick={() => setTab(7)} to="/licepoper/tokenomics">
                   <li
                     id="shadow"
-                    className=" bg-[#f59e0b] rounded-3xl py-[10px] px-[15px] w-fit hover:bg-[#ffc859] active:bg-[#f58c0b]"
+                    className={`rounded-3xl py-[10px] px-[15px] w-fit hover:bg-[#ffc859] transition ${
+                      tab === 7 ? "bg-[#f5490b]" : "bg-[#f59e0b]"
+                    }`}
                   >
                     tokenomics
                   </li>
                 </Link>
-                <Link to="/licepoper/roadmap">
+                <Link onClick={() => setTab(8)} to="/licepoper/roadmap">
                   <li
                     id="shadow"
-                    className=" bg-[#f59e0b] rounded-3xl py-[10px] px-[15px] w-fit hover:bg-[#ffc859] active:bg-[#f58c0b]"
+                    className={`rounded-3xl py-[10px] px-[15px] w-fit hover:bg-[#ffc859] transition ${
+                      tab === 8 ? "bg-[#f5490b]" : "bg-[#f59e0b]"
+                    }`}
                   >
                     roadmap
                   </li>
