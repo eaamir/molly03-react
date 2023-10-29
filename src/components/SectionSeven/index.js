@@ -11,7 +11,7 @@ const SectionSeven = () => {
         </h1>
       </div>
       <div className="w-full overflow-hidden xl:flex xl:flex-row z-[10] px-[20px] mt-[50px] xl:mt-[150px]  ">
-        <div className="xl:w-[50%] flex flex-row justify-center">
+        <div className="xl:w-[50%] flex flex-row justify-center items-center ">
           <img
             loading="lazy"
             id="chartmolly"
@@ -21,6 +21,7 @@ const SectionSeven = () => {
             height={2000}
             alt="background3"
           />
+          <div className="bg-gradient-to-t from-[#f5490b] to-[#f59e0b] rounded-full w-[450px] h-[450px] animate-spin absolute z-[-1] justify-self-center hidden xl:flex "></div>
         </div>
         <div
           id="header"

@@ -11,11 +11,11 @@ const Tokenomics = () => {
         COMPOUND THEIR GRAINS! This mechanism is currently under development.
       </p>
       <div className="border-2 w-full grid-cols-3 grid ">
-        <h2 className="border-2 col-span-1 p-[10px] w-full text-left text-[17px] ">
+        <h2 className="border-2 col-span-1 p-[10px] w-full text-left text-[17px] break-all">
           lorem impusaasf
         </h2>
         <span className="border-2 col-span-2 flex gap-[25px] p-[10px] w-full text-left text-[17px]">
-          <h2 className="underline underline-offset-4">
+          <h2 className="underline underline-offset-4 break-all">
             06350fsdf00654fd3f54g0f32g065dfgdfg6540
           </h2>
           <button
@@ -32,11 +32,11 @@ const Tokenomics = () => {
             ></i>
           </button>
         </span>{" "}
-        <h2 className="border-2 col-span-1 p-[10px] w-full text-left text-[17px] ">
+        <h2 className="border-2 col-span-1 p-[10px] w-full text-left text-[17px] break-all ">
           lorem impusaasf
         </h2>
         <span className="border-2 col-span-2 flex gap-[25px] p-[10px] w-full text-left text-[17px]">
-          <h2 className="underline underline-offset-4">
+          <h2 className="underline underline-offset-4 break-all">
             06350fsdf00654fd3f54g0f32g065dfgdfg6540
           </h2>
           <button
@@ -53,11 +53,11 @@ const Tokenomics = () => {
             ></i>
           </button>
         </span>{" "}
-        <h2 className=" bg-slate-600 border-2 col-span-1 p-[10px] w-full text-left text-[17px] ">
+        <h2 className=" bg-slate-600 border-2 col-span-1 p-[10px] w-full text-left text-[17px] break-all">
           lorem impusaasf
         </h2>
         <span className=" bg-slate-600 border-2 col-span-2 flex gap-[25px] p-[10px] w-full text-left text-[17px]">
-          <h2 className="underline underline-offset-4">
+          <h2 className="underline underline-offset-4 break-all">
             06350fsdf00654fd3f54g0f32g065dfgdfg6540
           </h2>
           <button
@@ -74,11 +74,11 @@ const Tokenomics = () => {
             ></i>
           </button>
         </span>{" "}
-        <h2 className="border-2 col-span-1 p-[10px] w-full text-left text-[17px] ">
+        <h2 className="border-2 col-span-1 p-[10px] w-full text-left text-[17px] break-all ">
           lorem impusaasf
         </h2>
         <span className="border-2 col-span-2 flex gap-[25px] p-[10px] w-full text-left text-[17px]">
-          <h2 className="">
+          <h2 className="break-all">
             TokenomicsTokenomicsTokenomicsTokenomicsTokenomics
           </h2>
         </span>

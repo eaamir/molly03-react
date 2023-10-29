@@ -526,7 +526,6 @@ h1 {
   text-shadow: 2px 2px black;
 }
 
-#shadow:focus{
+#shadow:focus {
   background-color: #d84c58;
 }
-

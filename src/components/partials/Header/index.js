@@ -1,7 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import mollylg from "../../../img/MOLLY.png";
-
-
+import { Link } from "react-router-dom";
 
 const Header = () => {
   const dropMenu = useRef(null);
@@ -29,21 +28,20 @@ const Header = () => {
     window.addEventListener("resize", handleWindowResize);
   }, []);
 
-
-
-
-
   return (
-    <div id="hd" className="flex justify-center mx-[20px] " >
+    <div id="hd" className="flex justify-center mx-[20px] ">
       <div id="header" className="w-[940px] h-[75px] flex flex-row mt-[25px]">
         <div className="basis-1/2 w-[65px] h-[65px] self-center ml-[45px] my-[15px]">
-          <img
-            loading="lazy"
-            src={mollylg}
-            width={65}
-            height={65}
-            alt="logo of molly website"
-          />
+          <Link to="/">
+            <img
+              className="hover:rotate-[360deg] duration-[2s] ease-in-out"
+              loading="lazy"
+              src={mollylg}
+              width={65}
+              height={65}
+              alt="logo of molly website"
+            />
+          </Link>
         </div>
         <div className="basis-1/2 self-center mr-[45px]">
           {windowSize[0] <= 768 ? (
@@ -59,7 +57,7 @@ const Header = () => {
               id="lst"
               className="flex flex-row  justify-center gap-x-[75px] font-sans uppercase text-[15px] text-white "
             >
-              <li className="hover:translate-y-1 transition ease-in-out " >
+              <li className="hover:translate-y-1 transition ease-in-out ">
                 <a href="/">Telegram</a>
               </li>
               <li className="hover:translate-y-1 transition ease-in-out">

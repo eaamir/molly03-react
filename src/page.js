@@ -25,7 +25,7 @@ const Home = () => {
     setTimeout(() => {
       setLoading(false);
       document.body.style.overflow = "visible";
-    }, 5000);
+    }, 7000);
     if (textLoading === false) {
       if (loadText === "") {
         setLoadText("M");
@@ -62,6 +62,7 @@ const Home = () => {
         >
           <div className="absolute top-[50%] left-[50%] mt-[-20px] ml-[-120px] flex items-center">
             <img
+              className="animate-spin"
               loading="lazy"
               src={mollylg}
               width={65}

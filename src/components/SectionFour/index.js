@@ -7,7 +7,7 @@ const SectionFour = () => {
       <div className="flex flex-row justify-center w-full mt-[150px] xl:mt-[50px] ">
         <img
         loading="lazy"
-          className="w-[185px] "
+          className="w-[185px] mt-[35px] "
           src={mollzz}
           width={2000}
           height={2000}
